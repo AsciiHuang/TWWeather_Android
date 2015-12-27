@@ -1,8 +1,27 @@
-<resources>
+<resources
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools">
 
-	<!-- Base application theme. -->
-	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-		<!-- Customize your theme here. -->
+	<!-- 將 Parent 由 DarkActionBar 換成 NoActionBar -->
+	<style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+		<!-- Action Bar 會吃這個顏色 -->
+		<item name="android:colorPrimary" tools:targetApi="21">@color/primary</item>
+		<!-- status bar 會吃這個顏色 -->
+		<item name="android:colorPrimaryDark" tools:targetApi="21">@color/primary_dark</item>
+		<!-- Toolbar title 會吃這個顏色 -->
+		<item name="android:textColorPrimary" tools:targetApi="21">@color/text_primary</item>
+		<!-- Toolbar title Home button 會吃這個顏色 -->
+		<item name="android:textColorSecondary">@color/text_secondary</item>
+		<!-- 特定 UI 元件，例如 checkbox 會吃這個顏色 -->
+		<item name="android:colorAccent" tools:targetApi="21">@color/color_accent</item>
+		<!-- 設定畫面的背景色 -->
+		<item name="android:windowBackground">@android:color/white</item>
+		<!-- 在 KitKat 以上支援將 status bar 設為半透明 -->
+		<item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>
+
+		<!-- 如果無法使用 NoActionBar 系列的 Base Theme 可以加入這兩行移除 ActionBar -->
+		<!--<item name="windowActionBar">false</item>-->
+		<!--<item name="windowNoTitle">true</item>-->
 	</style>
 
 </resources>

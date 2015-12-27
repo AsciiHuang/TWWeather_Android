@@ -2,12 +2,20 @@
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/drawer"
 	android:layout_width="match_parent"
-	android:layout_height="match_parent">
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true">
 
 	<FrameLayout
-		android:id="@+id/main_layout"
 		android:layout_width="match_parent"
 		android:layout_height="match_parent">
+
+		<include layout="@layout/layout_toolbar"/>
+
+		<FrameLayout
+			android:id="@+id/main_fragment"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+
 	</FrameLayout>
 
 	<include layout="@layout/layout_drawer"/>
