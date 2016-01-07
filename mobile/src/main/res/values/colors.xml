@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<color name="primary">#FFFFCC00</color>
-	<color name="primary_dark">#524700</color>
+	<color name="primary_dark">#CC524700</color>
 	<color name="text_primary">#333333</color>
 	<color name="text_secondary">#333333</color>
 	<color name="windows_background">#FFFFFF</color>
@@ -9,4 +9,8 @@
 	<color name="color_accent">#55727272</color>
 	<color name="translucent_color_accent">#BBFFCC00</color>
 	<color name="dark_gray">#FF333333</color>
+
+	<color name="white_gray">#AAAAAA</color>
+	<color name="ored">#CC3300</color>
+	<color name="drawer_text_normal">#333333</color>
 </resources>

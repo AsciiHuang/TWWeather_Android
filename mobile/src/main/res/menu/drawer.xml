@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/navigation_item_preference_portal"
+			android:checkable="true"
+			android:checked="true"
+			android:icon="@drawable/selector_btn_drawer_forty_eight_forecast"
+			android:title="@string/preference_portal"/>
+		<item
+			android:id="@+id/navigation_item_forty_eight_forecast"
+			android:checkable="true"
+			android:icon="@drawable/selector_btn_drawer_forty_eight_forecast"
+			android:title="@string/forty_eight_forecast"/>
+		<item
+			android:id="@+id/navigation_item_one_week_forecast"
+			android:checkable="true"
+			android:icon="@drawable/selector_btn_drawer_one_week_forecast"
+			android:title="@string/one_week_forecast"/>
+		<item
+			android:id="@+id/navigation_item_one_week_travel"
+			android:checkable="true"
+			android:icon="@drawable/selector_btn_drawer_one_week_travel"
+			android:title="@string/one_week_travel"/>
+		<item
+			android:id="@+id/navigation_item_three_days_sea"
+			android:checkable="true"
+			android:icon="@drawable/selector_btn_drawer_three_days_sea"
+			android:title="@string/three_days_sea"/>
+		<item
+			android:id="@+id/navigation_item_near_sea"
+			android:checkable="true"
+				android:icon="@drawable/selector_btn_drawer_near_sea"
+			android:title="@string/near_sea"/>
+		<item
+			android:id="@+id/navigation_item_tide"
+			android:checkable="true"
+			android:icon="@drawable/selector_btn_drawer_tide"
+			android:title="@string/tide"/>
+		<item
+			android:id="@+id/navigation_item_obs"
+			android:checkable="true"
+			android:icon="@drawable/selector_btn_drawer_obs"
+			android:title="@string/obs"/>
+		<item
+			android:id="@+id/navigation_item_global"
+			android:checkable="true"
+			android:icon="@drawable/selector_btn_drawer_global"
+			android:title="@string/global"/>
+		<item
+			android:id="@+id/navigation_item_images"
+			android:checkable="true"
+			android:icon="@drawable/selector_btn_drawer_images"
+			android:title="@string/images"/>
+	</group>
+</menu>

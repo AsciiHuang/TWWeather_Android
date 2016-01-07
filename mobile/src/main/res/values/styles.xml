@@ -16,8 +16,6 @@
 		<item name="android:colorAccent" tools:targetApi="21">@color/color_accent</item>
 		<!-- 設定畫面的背景色 -->
 		<item name="android:windowBackground">@android:color/white</item>
-		<!-- 在 KitKat 以上支援將 status bar 設為半透明 -->
-		<item name="android:windowTranslucentStatus" tools:targetApi="19">true</item>
 
 		<!-- 如果無法使用 NoActionBar 系列的 Base Theme 可以加入這兩行移除 ActionBar -->
 		<!--<item name="windowActionBar">false</item>-->
