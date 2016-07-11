@@ -6,7 +6,7 @@
 			android:id="@+id/navigation_item_preference_portal"
 			android:checkable="true"
 			android:checked="true"
-			android:icon="@drawable/selector_btn_drawer_forty_eight_forecast"
+			android:icon="@drawable/selector_btn_drawer_preference_portal"
 			android:title="@string/preference_portal"/>
 		<item
 			android:id="@+id/navigation_item_forty_eight_forecast"

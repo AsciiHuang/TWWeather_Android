@@ -12,6 +12,9 @@ import java.util.ArrayList;
 
 public class TextListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
+//	說一下，大家如果在 RecyclerView 要對 item 加上 click listener 時，建議在 onCreateViewHolder 做，不要放在 onBindViewHolder，避免 new 太多 listener，在 scroll 時會不斷需要回收造成效能問題，詳細可以參考
+//	http://stackoverflow.com/questions/24885223/why-doesnt-recyclerview-have-onitemclicklistener-and-how-recyclerview-is-dif?answertab=votes#tab-top
+
 	ArrayList<String> items;
 
 	public TextListAdapter(ArrayList<String> items) {

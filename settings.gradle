@@ -1,1 +1,3 @@
 include ':mobile', ':wear'
+include 'volley'
+project(':volley').projectDir = new File('mobile/libs/volley')
